@@ -16,21 +16,23 @@ public class Main {
         RecursiveElement child1 = new RecursiveElement("Child1", 20, 2.1);
         RecursiveElement child2 = new RecursiveElement("Child2", 30, 1.8);
         RecursiveElement subchild = new RecursiveElement("subchild", 10, 0.9);
-        child1.addChild(subchild);
+
+
         root.addChild(child1);
         root.addChild(child2);
+        child1.addChild(subchild);
         elements.add(root);
         elements.add(child1);
         elements.add(child2);
         elements.add(subchild);
 
-        printElements(elements, "");
+        printElements(elements);
     }
 
-    private static void printElements(Set<RecursiveElement>elements, String znak){
+    private static void printElements(Set<RecursiveElement>elements){
         for (RecursiveElement element : elements){
-            System.out.println(znak + element);
-            printElements(element.getChildren(), znak + " ");
+            System.out.println(element.toString());
+            printElements(element.getChildren());
         }
     }
 }
