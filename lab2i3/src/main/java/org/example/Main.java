@@ -18,28 +18,47 @@ public class Main {
         }
 
         data dataPool = new data(1000);
+
         dataPool.printdata();
-        ResultsCollector collector = new ResultsCollector();
+        ResultsCollector parallelcollector = new ResultsCollector();
 
         // Uruchomienie wątków
         List<calculations> workers = new ArrayList<>();
         List<Thread> threads = new ArrayList<>();
+
+        long start = System.currentTimeMillis();
+        System.out.println("pocz");
+
+        // Równolegle
         for (int i = 0; i < numThreads; i++) {
-            calculations worker = new calculations(dataPool, collector);
+            calculations worker = new calculations(dataPool, parallelcollector);
             workers.add(worker);
             Thread thread = new Thread(worker, "Worker-" + i);
             threads.add(thread);
             thread.start();
         }
 
-        // Monitorowanie wejścia użytkownika
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Wpisz 'exit' aby zakończyć:");
-        while (!scanner.nextLine().equalsIgnoreCase("exit")) {
-            System.out.println("Wpisz 'exit' aby zakończyć:");
-        }
 
-        // Zlecenie zatrzymania wątków
+
+        Thread monitorThread = new Thread(() -> {
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Wpisz 'exit' aby zakończyć aplikację:");
+            while (true) {
+                String input = scanner.nextLine();
+                if (input.equalsIgnoreCase("exit")) {
+                    System.out.println("Zamykam aplikację...");
+                    for (calculations worker : workers) {
+                        worker.stop();
+                    }
+                    break;
+                }
+            }
+            scanner.close();
+        });
+        monitorThread.start();
+
+        while (!dataPool.isEmpty()) {}
+
         for (calculations worker : workers) {
             worker.stop();
         }
@@ -52,11 +71,22 @@ public class Main {
                 e.printStackTrace();
             }
         }
+        System.out.println("koniec");
+        long end = System.currentTimeMillis();
+        long parallel_processingTime = end - start;
+
+
+        long sequential_processingTime = 0;
 
         // Wypisanie wyników
-        System.out.println("Wyniki :");
-        for (Result res : collector.getResults()) {
+        System.out.println("\n\nWyniki Równolegle :\n\ne");
+        for (Result res : parallelcollector.getResults()) {
             System.out.println(res);
+            sequential_processingTime += res.processingTime;
         }
+
+        // wypisanie czasu:
+        System.out.println("Czas równolegle: " + parallel_processingTime);
+        System.out.println("\nCzas sekwencyjnie: " + sequential_processingTime);
     }
 }

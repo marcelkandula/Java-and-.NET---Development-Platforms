@@ -14,4 +14,6 @@ public class ResultsCollector {
     public synchronized List<Result> getResults() {
         return new ArrayList<>(results);
     }
+
+
 }

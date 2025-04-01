@@ -3,7 +3,7 @@ package org.example;
 public class Result {
     private final int input;
     private final int output;
-    private final long processingTime;
+    public final long processingTime;
 
     public Result(int input, int output, long processingTime) {
         this.input = input;
