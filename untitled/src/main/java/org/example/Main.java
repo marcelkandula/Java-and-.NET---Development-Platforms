@@ -15,23 +15,31 @@ public class Main {
         RecursiveElement root = new RecursiveElement("Root", 50, 1.5);
         RecursiveElement child1 = new RecursiveElement("Child1", 20, 2.1);
         RecursiveElement child2 = new RecursiveElement("Child2", 30, 1.8);
+        RecursiveElement child3 = new RecursiveElement("Child3", 31, 1.8);
+
         RecursiveElement subchild = new RecursiveElement("subchild", 10, 0.9);
+        RecursiveElement subchild2 = new RecursiveElement("subchild2", 11, 0.9);
 
 
         root.addChild(child1);
         root.addChild(child2);
+        root.addChild(child3);
         child1.addChild(subchild);
+        child3.addChild(subchild2);
+
         elements.add(root);
         elements.add(child1);
         elements.add(child2);
+        elements.add(child3);
         elements.add(subchild);
+        elements.add(subchild2);
 
         printElements(elements, 0);
 
 
         boolean sorted = sortType.equals("natural") || sortType.equals("comparator");
         Map<RecursiveElement, Integer> stats = generateStatistics(elements, sorted);
-        System.out.println("Statystyki elementów podrzędnych:");
+        System.out.println("\nStatystyki elementów podrzędnych:");
         for (Map.Entry<RecursiveElement, Integer> entry : stats.entrySet()) {
             System.out.println(entry.getKey().toString() + " -> " + entry.getValue());
         }
