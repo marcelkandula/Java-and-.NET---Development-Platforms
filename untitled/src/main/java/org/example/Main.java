@@ -26,13 +26,45 @@ public class Main {
         elements.add(child2);
         elements.add(subchild);
 
-        printElements(elements);
-    }
+        printElements(elements, 0);
 
-    private static void printElements(Set<RecursiveElement>elements){
-        for (RecursiveElement element : elements){
-            System.out.println(element.toString());
-            printElements(element.getChildren());
+
+        boolean sorted = sortType.equals("natural") || sortType.equals("comparator");
+        Map<RecursiveElement, Integer> stats = generateStatistics(elements, sorted);
+        System.out.println("Statystyki elementów podrzędnych:");
+        for (Map.Entry<RecursiveElement, Integer> entry : stats.entrySet()) {
+            System.out.println(entry.getKey().toString() + " -> " + entry.getValue());
         }
     }
+
+    private static void printElements(Set<RecursiveElement> elements, int level) {
+        String indent = "  ".repeat(level);
+        for (RecursiveElement element : elements) {
+            System.out.println(indent + element.toString());
+            printElements(element.getChildren(), level + 1);
+        }
+    }
+
+    private static int countDescendants(RecursiveElement element) {
+        int count = element.getChildren().size();
+        for (RecursiveElement child : element.getChildren()) {
+            count += countDescendants(child);
+        }
+        return count;
+    }
+
+    private static Map<RecursiveElement, Integer> generateStatistics(Set<RecursiveElement> elements, boolean sorted) {
+        Map<RecursiveElement, Integer> stats;
+        if (sorted) {
+            stats = new TreeMap<>();
+        } else {
+            stats = new HashMap<>();
+        }
+        for (RecursiveElement element : elements) {
+            stats.put(element, countDescendants(element));
+        }
+        return stats;
+    }
+
+
 }
