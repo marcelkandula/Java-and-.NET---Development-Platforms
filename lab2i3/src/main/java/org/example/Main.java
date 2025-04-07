@@ -18,6 +18,7 @@ public class Main {
         }
 
         data dataPool = new data(1000);
+        data sequentialData = new data(dataPool);
 
         dataPool.printdata();
         ResultsCollector parallelcollector = new ResultsCollector();
@@ -76,15 +77,24 @@ public class Main {
         long parallel_processingTime = end - start;
 
 
-        long sequential_processingTime = 0;
 
-        // Wypisanie wyników
+        ResultsCollector sequentialCollector = new ResultsCollector();
+        calculations sequentialCalculations = new calculations(sequentialData, sequentialCollector);
+        long sequentialStart = System.currentTimeMillis();
+        sequentialCalculations.run();
+        long sequentialEnd = System.currentTimeMillis();
+
+        long sequential_processingTime = sequentialEnd - sequentialStart;
+        /*
         System.out.println("\n\nWyniki Równolegle :\n\ne");
         for (Result res : parallelcollector.getResults()) {
             System.out.println(res);
-            sequential_processingTime += res.processingTime;
         }
-
+        System.out.println("\n\nWyniki sekwencyjne :\n\ne");
+        for (Result res : sequentialCollector.getResults()) {
+            System.out.println(res);
+        }
+        */
         // wypisanie czasu:
         System.out.println("Czas równolegle: " + parallel_processingTime);
         System.out.println("\nCzas sekwencyjnie: " + sequential_processingTime);

@@ -11,6 +11,10 @@ public class data {
         }
     }
 
+    public data(data other) {
+        this.data = new LinkedList<>(other.data);
+    }
+
     public synchronized Integer getNext(){
         return data.poll();
     }
