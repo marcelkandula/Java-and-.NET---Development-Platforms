@@ -1,5 +1,7 @@
 package org.example;
 
+import java.io.ObjectOutputStream;
+import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -17,7 +19,7 @@ public class Main {
             System.out.println("Brak parametru, używam domyślnej liczby wątków: 2.");
         }
 
-        data dataPool = new data(1000);
+        data dataPool = new data(250);
         data sequentialData = new data(dataPool);
 
         dataPool.printdata();
@@ -28,7 +30,6 @@ public class Main {
         List<Thread> threads = new ArrayList<>();
 
         long start = System.currentTimeMillis();
-        System.out.println("pocz");
 
         // Równolegle
         for (int i = 0; i < numThreads; i++) {
@@ -72,7 +73,6 @@ public class Main {
                 e.printStackTrace();
             }
         }
-        System.out.println("koniec");
         long end = System.currentTimeMillis();
         long parallel_processingTime = end - start;
 
@@ -98,5 +98,15 @@ public class Main {
         // wypisanie czasu:
         System.out.println("Czas równolegle: " + parallel_processingTime);
         System.out.println("\nCzas sekwencyjnie: " + sequential_processingTime);
+
+        // Laboratorium 4:
+        try (Socket socket = new Socket("localhost", 88888);
+             ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream())) {
+            oos.writeObject(parallelcollector);
+            System.out.println("Wyniki wysłane do serwera.");
+        } catch (Exception e) {
+            System.err.println("Błąd wysyłania danych: " + e.getMessage());
+        }
+
     }
 }

@@ -1,6 +1,9 @@
 package org.example;
 
-public class Result {
+import java.io.Serial;
+import java.io.Serializable;
+
+public class Result implements Serializable {
     private final int input;
     private final int output;
     public final long processingTime;
