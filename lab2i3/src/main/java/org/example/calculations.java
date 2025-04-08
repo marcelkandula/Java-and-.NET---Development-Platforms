@@ -34,7 +34,7 @@ public class calculations implements Runnable {
 
         int iterations = 1400 * input + 13;
         for (int i = 1; i<= iterations; i++){
-            result = (result * i + input) % 14032040;
+            result = (result * i + input) % 2147483647;
             result = result - (int)(result/i - Math.sqrt(result));
         }
         return result;

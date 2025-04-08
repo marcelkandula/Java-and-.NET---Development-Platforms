@@ -9,7 +9,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Server {
-    private static final int PORT = 88888;
+    private static final int PORT = 12345;
     private static final Logger logger = Logger.getLogger(Server.class.getName());
 
     public static void main(String[] args) {

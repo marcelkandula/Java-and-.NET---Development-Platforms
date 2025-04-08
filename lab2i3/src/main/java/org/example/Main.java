@@ -19,7 +19,7 @@ public class Main {
             System.out.println("Brak parametru, używam domyślnej liczby wątków: 2.");
         }
 
-        data dataPool = new data(250);
+        data dataPool = new data(100);
         data sequentialData = new data(dataPool);
 
         dataPool.printdata();
@@ -95,12 +95,13 @@ public class Main {
             System.out.println(res);
         }
         */
+
         // wypisanie czasu:
         System.out.println("Czas równolegle: " + parallel_processingTime);
         System.out.println("\nCzas sekwencyjnie: " + sequential_processingTime);
 
         // Laboratorium 4:
-        try (Socket socket = new Socket("localhost", 88888);
+        try (Socket socket = new Socket("localhost", 12345);
              ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream())) {
             oos.writeObject(parallelcollector);
             System.out.println("Wyniki wysłane do serwera.");
