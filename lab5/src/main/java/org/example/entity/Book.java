@@ -11,7 +11,7 @@ import java.util.UUID;
 @Entity
 public class Book {
     @Id
-    private UUID id = UUID.randomUUID();
+    public UUID id = UUID.randomUUID();
 
     @Setter @Getter
     private String Title;

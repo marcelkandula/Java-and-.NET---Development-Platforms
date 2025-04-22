@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.ArrayList;
 import java.util.UUID;
 import java.util.List;
 
@@ -19,6 +20,6 @@ public class Author {
     private String Name;
 
     @Getter
-    @OneToMany
-    private List<Book> Books;
+    @OneToMany(mappedBy = "Author", cascade = CascadeType.ALL)
+    private List<Book> Books = new ArrayList<>();
 }
