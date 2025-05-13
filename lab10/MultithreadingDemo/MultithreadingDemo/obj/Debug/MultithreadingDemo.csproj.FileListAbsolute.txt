@@ -1,9 +1,0 @@
-D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\MultithreadingDemo\MultithreadingDemo\obj\Debug\MultithreadingDemo.csproj.AssemblyReference.cache
-D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\MultithreadingDemo\MultithreadingDemo\obj\Debug\MultithreadingDemo.Properties.Resources.resources
-D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\MultithreadingDemo\MultithreadingDemo\obj\Debug\MultithreadingDemo.csproj.GenerateResource.cache
-D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\MultithreadingDemo\MultithreadingDemo\obj\Debug\MultithreadingDemo.csproj.CoreCompileInputs.cache
-D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\MultithreadingDemo\MultithreadingDemo\bin\Debug\MultithreadingDemo.exe.config
-D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\MultithreadingDemo\MultithreadingDemo\bin\Debug\MultithreadingDemo.exe
-D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\MultithreadingDemo\MultithreadingDemo\bin\Debug\MultithreadingDemo.pdb
-D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\MultithreadingDemo\MultithreadingDemo\obj\Debug\MultithreadingDemo.exe
-D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\MultithreadingDemo\MultithreadingDemo\obj\Debug\MultithreadingDemo.pdb
