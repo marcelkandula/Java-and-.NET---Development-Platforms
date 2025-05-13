@@ -1,0 +1,66 @@
+D:\Notatki\Programowanie\PT\lab8\lab8\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\Notatki\Programowanie\PT\lab8\lab8\obj\Debug\net6.0-windows\App.g.cs
+D:\Notatki\Programowanie\PT\lab8\lab8\obj\Debug\net6.0-windows\lab8_MarkupCompile.cache
+D:\Notatki\Programowanie\PT\lab8\lab8\obj\Debug\net6.0-windows\lab8_MarkupCompile.lref
+D:\Notatki\Programowanie\PT\lab8\lab8\bin\Debug\net6.0-windows\lab8.exe
+D:\Notatki\Programowanie\PT\lab8\lab8\bin\Debug\net6.0-windows\lab8.deps.json
+D:\Notatki\Programowanie\PT\lab8\lab8\bin\Debug\net6.0-windows\lab8.runtimeconfig.json
+D:\Notatki\Programowanie\PT\lab8\lab8\bin\Debug\net6.0-windows\lab8.dll
+D:\Notatki\Programowanie\PT\lab8\lab8\bin\Debug\net6.0-windows\lab8.pdb
+D:\Notatki\Programowanie\PT\lab8\lab8\obj\Debug\net6.0-windows\MainWindow.baml
+D:\Notatki\Programowanie\PT\lab8\lab8\obj\Debug\net6.0-windows\lab8.g.resources
+D:\Notatki\Programowanie\PT\lab8\lab8\obj\Debug\net6.0-windows\lab8.GeneratedMSBuildEditorConfig.editorconfig
+D:\Notatki\Programowanie\PT\lab8\lab8\obj\Debug\net6.0-windows\lab8.AssemblyInfoInputs.cache
+D:\Notatki\Programowanie\PT\lab8\lab8\obj\Debug\net6.0-windows\lab8.AssemblyInfo.cs
+D:\Notatki\Programowanie\PT\lab8\lab8\obj\Debug\net6.0-windows\lab8.csproj.CoreCompileInputs.cache
+D:\Notatki\Programowanie\PT\lab8\lab8\obj\Debug\net6.0-windows\lab8.dll
+D:\Notatki\Programowanie\PT\lab8\lab8\obj\Debug\net6.0-windows\refint\lab8.dll
+D:\Notatki\Programowanie\PT\lab8\lab8\obj\Debug\net6.0-windows\lab8.pdb
+D:\Notatki\Programowanie\PT\lab8\lab8\obj\Debug\net6.0-windows\lab8.genruntimeconfig.cache
+D:\Notatki\Programowanie\PT\lab8\lab8\obj\Debug\net6.0-windows\ref\lab8.dll
+D:\Notatki\Programowanie\PT\lab8\lab8\obj\Debug\net6.0-windows\ResultsWindow.g.cs
+D:\Notatki\Programowanie\PT\lab8\lab8\obj\Debug\net6.0-windows\ResultsWindow.baml
+D:\Notatki\Programowanie\PT\pt_d3_ga_j_kandula_lapies\lab8\lab8\bin\Debug\net6.0-windows\lab8.exe
+D:\Notatki\Programowanie\PT\pt_d3_ga_j_kandula_lapies\lab8\lab8\bin\Debug\net6.0-windows\lab8.deps.json
+D:\Notatki\Programowanie\PT\pt_d3_ga_j_kandula_lapies\lab8\lab8\bin\Debug\net6.0-windows\lab8.runtimeconfig.json
+D:\Notatki\Programowanie\PT\pt_d3_ga_j_kandula_lapies\lab8\lab8\bin\Debug\net6.0-windows\lab8.dll
+D:\Notatki\Programowanie\PT\pt_d3_ga_j_kandula_lapies\lab8\lab8\bin\Debug\net6.0-windows\lab8.pdb
+D:\Notatki\Programowanie\PT\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\Notatki\Programowanie\PT\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\ResultsWindow.g.cs
+D:\Notatki\Programowanie\PT\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\App.g.cs
+D:\Notatki\Programowanie\PT\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\lab8_MarkupCompile.cache
+D:\Notatki\Programowanie\PT\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\lab8_MarkupCompile.lref
+D:\Notatki\Programowanie\PT\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\MainWindow.baml
+D:\Notatki\Programowanie\PT\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\ResultsWindow.baml
+D:\Notatki\Programowanie\PT\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\lab8.g.resources
+D:\Notatki\Programowanie\PT\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\lab8.GeneratedMSBuildEditorConfig.editorconfig
+D:\Notatki\Programowanie\PT\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\lab8.AssemblyInfoInputs.cache
+D:\Notatki\Programowanie\PT\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\lab8.AssemblyInfo.cs
+D:\Notatki\Programowanie\PT\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\lab8.csproj.CoreCompileInputs.cache
+D:\Notatki\Programowanie\PT\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\lab8.dll
+D:\Notatki\Programowanie\PT\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\refint\lab8.dll
+D:\Notatki\Programowanie\PT\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\lab8.pdb
+D:\Notatki\Programowanie\PT\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\lab8.genruntimeconfig.cache
+D:\Notatki\Programowanie\PT\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\ref\lab8.dll
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab8\lab8\bin\Debug\net6.0-windows\lab8.exe
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab8\lab8\bin\Debug\net6.0-windows\lab8.deps.json
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab8\lab8\bin\Debug\net6.0-windows\lab8.runtimeconfig.json
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab8\lab8\bin\Debug\net6.0-windows\lab8.dll
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab8\lab8\bin\Debug\net6.0-windows\lab8.pdb
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\ResultsWindow.g.cs
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\App.g.cs
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\lab8_MarkupCompile.cache
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\lab8_MarkupCompile.lref
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\MainWindow.baml
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\ResultsWindow.baml
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\lab8.g.resources
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\lab8.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\lab8.AssemblyInfoInputs.cache
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\lab8.AssemblyInfo.cs
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\lab8.csproj.CoreCompileInputs.cache
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\lab8.dll
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\refint\lab8.dll
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\lab8.pdb
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\lab8.genruntimeconfig.cache
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab8\lab8\obj\Debug\net6.0-windows\ref\lab8.dll
