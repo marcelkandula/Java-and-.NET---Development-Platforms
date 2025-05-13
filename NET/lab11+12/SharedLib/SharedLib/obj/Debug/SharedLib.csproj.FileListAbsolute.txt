@@ -1,0 +1,12 @@
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\SharedLib\SharedLib\bin\Debug\SharedLib.dll
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\SharedLib\SharedLib\bin\Debug\SharedLib.pdb
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\SharedLib\SharedLib\obj\Debug\SharedLib.csproj.AssemblyReference.cache
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\SharedLib\SharedLib\obj\Debug\SharedLib.csproj.CoreCompileInputs.cache
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\SharedLib\SharedLib\obj\Debug\SharedLib.dll
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\SharedLib\SharedLib\obj\Debug\SharedLib.pdb
+C:\Users\marce\OneDrive\Pulpit\pt_d3_ga_j_kandula_lapies-gabo\lab11+12\SharedLib\SharedLib\bin\Debug\SharedLib.dll
+C:\Users\marce\OneDrive\Pulpit\pt_d3_ga_j_kandula_lapies-gabo\lab11+12\SharedLib\SharedLib\bin\Debug\SharedLib.pdb
+C:\Users\marce\OneDrive\Pulpit\pt_d3_ga_j_kandula_lapies-gabo\lab11+12\SharedLib\SharedLib\obj\Debug\SharedLib.csproj.AssemblyReference.cache
+C:\Users\marce\OneDrive\Pulpit\pt_d3_ga_j_kandula_lapies-gabo\lab11+12\SharedLib\SharedLib\obj\Debug\SharedLib.csproj.CoreCompileInputs.cache
+C:\Users\marce\OneDrive\Pulpit\pt_d3_ga_j_kandula_lapies-gabo\lab11+12\SharedLib\SharedLib\obj\Debug\SharedLib.dll
+C:\Users\marce\OneDrive\Pulpit\pt_d3_ga_j_kandula_lapies-gabo\lab11+12\SharedLib\SharedLib\obj\Debug\SharedLib.pdb

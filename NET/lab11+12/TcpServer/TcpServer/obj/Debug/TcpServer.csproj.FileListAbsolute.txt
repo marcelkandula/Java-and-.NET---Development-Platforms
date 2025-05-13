@@ -1,0 +1,30 @@
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\TcpServer\TcpServer\bin\Debug\TcpServer.exe.config
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\TcpServer\TcpServer\bin\Debug\TcpServer.exe
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\TcpServer\TcpServer\bin\Debug\TcpServer.pdb
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\TcpServer\TcpServer\obj\Debug\TcpServer.csproj.AssemblyReference.cache
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\TcpServer\TcpServer\obj\Debug\TcpServer.csproj.CoreCompileInputs.cache
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\TcpServer\TcpServer\obj\Debug\TcpServer.exe
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\TcpServer\TcpServer\obj\Debug\TcpServer.pdb
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\TcpServer\TcpServer\bin\Debug\SharedLib.dll
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\TcpServer\TcpServer\bin\Debug\SharedLib.pdb
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\TcpServer\TcpServer\obj\Debug\TcpServer.csproj.CopyComplete
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab11+12\TcpServer\TcpServer\bin\Debug\TcpServer.exe.config
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab11+12\TcpServer\TcpServer\bin\Debug\TcpServer.exe
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab11+12\TcpServer\TcpServer\bin\Debug\TcpServer.pdb
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab11+12\TcpServer\TcpServer\bin\Debug\SharedLib.dll
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab11+12\TcpServer\TcpServer\bin\Debug\SharedLib.pdb
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab11+12\TcpServer\TcpServer\obj\Debug\TcpServer.csproj.AssemblyReference.cache
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab11+12\TcpServer\TcpServer\obj\Debug\TcpServer.csproj.CoreCompileInputs.cache
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab11+12\TcpServer\TcpServer\obj\Debug\TcpServer.csproj.CopyComplete
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab11+12\TcpServer\TcpServer\obj\Debug\TcpServer.exe
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab11+12\TcpServer\TcpServer\obj\Debug\TcpServer.pdb
+C:\Users\marce\OneDrive\Pulpit\pt_d3_ga_j_kandula_lapies-gabo\lab11+12\TcpServer\TcpServer\bin\Debug\TcpServer.exe.config
+C:\Users\marce\OneDrive\Pulpit\pt_d3_ga_j_kandula_lapies-gabo\lab11+12\TcpServer\TcpServer\bin\Debug\TcpServer.exe
+C:\Users\marce\OneDrive\Pulpit\pt_d3_ga_j_kandula_lapies-gabo\lab11+12\TcpServer\TcpServer\bin\Debug\TcpServer.pdb
+C:\Users\marce\OneDrive\Pulpit\pt_d3_ga_j_kandula_lapies-gabo\lab11+12\TcpServer\TcpServer\bin\Debug\SharedLib.dll
+C:\Users\marce\OneDrive\Pulpit\pt_d3_ga_j_kandula_lapies-gabo\lab11+12\TcpServer\TcpServer\bin\Debug\SharedLib.pdb
+C:\Users\marce\OneDrive\Pulpit\pt_d3_ga_j_kandula_lapies-gabo\lab11+12\TcpServer\TcpServer\obj\Debug\TcpServer.csproj.AssemblyReference.cache
+C:\Users\marce\OneDrive\Pulpit\pt_d3_ga_j_kandula_lapies-gabo\lab11+12\TcpServer\TcpServer\obj\Debug\TcpServer.csproj.CoreCompileInputs.cache
+C:\Users\marce\OneDrive\Pulpit\pt_d3_ga_j_kandula_lapies-gabo\lab11+12\TcpServer\TcpServer\obj\Debug\TcpServer.csproj.CopyComplete
+C:\Users\marce\OneDrive\Pulpit\pt_d3_ga_j_kandula_lapies-gabo\lab11+12\TcpServer\TcpServer\obj\Debug\TcpServer.exe
+C:\Users\marce\OneDrive\Pulpit\pt_d3_ga_j_kandula_lapies-gabo\lab11+12\TcpServer\TcpServer\obj\Debug\TcpServer.pdb
