@@ -60,7 +60,7 @@ namespace TcpServer
                 {
                     Console.WriteLine($"[SERVER] - {tcp.Client.RemoteEndPoint}");
                     Clients.TryRemove(id, out _);
-                    Slots.Release();             // zwolnienie slotu
+                    Slots.Release();             
                 }
             }
         }

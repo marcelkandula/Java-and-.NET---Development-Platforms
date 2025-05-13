@@ -14,7 +14,7 @@ namespace TcpClientApp
 
         private static void Main()
         {
-            int selfId = new Random().Next(1000, 9999);
+            Guid selfId = Guid.NewGuid();
             var rnd = new Random();
 
             while (true) 
@@ -43,11 +43,10 @@ namespace TcpClientApp
 
                         if (inPkg.Counter != outPkg.Counter)
                         {
-                            Console.WriteLine(
-                                $"[CLIENT {selfId}] Counter zmieniony: {outPkg.Counter} -> {inPkg.Counter}");
+                            Console.WriteLine($"[CLIENT {selfId}] Counter zmieniony: {outPkg.Counter} -> {inPkg.Counter}");
                         }
 
-                        Thread.Sleep(rnd.Next(5000, 8000));        // losowa zwłoka
+                        Thread.Sleep(rnd.Next(5000, 8000));
                     }
                 }
                 catch (SocketException)  

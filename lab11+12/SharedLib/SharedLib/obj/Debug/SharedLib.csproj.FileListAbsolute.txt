@@ -4,3 +4,9 @@ D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\l
 D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\SharedLib\SharedLib\obj\Debug\SharedLib.csproj.CoreCompileInputs.cache
 D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\SharedLib\SharedLib\obj\Debug\SharedLib.dll
 D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab10\SharedLib\SharedLib\obj\Debug\SharedLib.pdb
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab11+12\SharedLib\SharedLib\bin\Debug\SharedLib.dll
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab11+12\SharedLib\SharedLib\bin\Debug\SharedLib.pdb
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab11+12\SharedLib\SharedLib\obj\Debug\SharedLib.csproj.AssemblyReference.cache
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab11+12\SharedLib\SharedLib\obj\Debug\SharedLib.csproj.CoreCompileInputs.cache
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab11+12\SharedLib\SharedLib\obj\Debug\SharedLib.dll
+D:\Studia\Laborki\4 Semestr\Platformy technologiczne\pt_d3_ga_j_kandula_lapies\lab11+12\SharedLib\SharedLib\obj\Debug\SharedLib.pdb
