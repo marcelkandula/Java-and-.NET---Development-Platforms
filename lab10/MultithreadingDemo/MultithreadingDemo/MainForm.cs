@@ -117,7 +117,7 @@ namespace MultithreadingDemo
         {
             var sw = Stopwatch.StartNew();
 
-            Action worker = () =>
+            Action del = () =>
             {
                 while (!cts.IsCancellationRequested && dataPool.TryDequeue(out int item))
                 {
@@ -134,28 +134,17 @@ namespace MultithreadingDemo
             var handles = new List<IAsyncResult>(n);
             for (int i = 0; i < n; i++)
             {
-                handles.Add(worker.BeginInvoke(null, null));
+                handles.Add(del.BeginInvoke(null, null));
             }
-
+            
             Task.Run(() =>
             {
                 foreach (var h in handles)
-                    worker.EndInvoke(h);
+                    del.EndInvoke(h);
 
                 sw.Stop();
                 Invoke((Action)(() => Done(sw.ElapsedMilliseconds)));
             });
-        }
-
-
-        private Result ComputeAndCollect(int input)
-        {
-            var start = Stopwatch.GetTimestamp();
-            int outv = Compute(input);
-            var end = Stopwatch.GetTimestamp();
-            var res = new Result(input, outv, (end - start) * 1000 / Stopwatch.Frequency);
-            results.Add(res);
-            return res;
         }
 
         // 3) async/await
@@ -199,8 +188,7 @@ namespace MultithreadingDemo
                         var start = Stopwatch.GetTimestamp();
                         int outv = Compute(item);
                         var end = Stopwatch.GetTimestamp();
-                        results.Add(new Result(item, outv,
-                            (end - start) * 1000 / Stopwatch.Frequency));
+                        results.Add(new Result(item, outv, (end - start) * 1000 / Stopwatch.Frequency));
                         bw.ReportProgress(1);
                     }
                 };
@@ -239,8 +227,7 @@ namespace MultithreadingDemo
 
         private void Done(long ms)
         {
-            MessageBox.Show($"Gotowe w {ms} ms\nWyników: {results.Count}",
-                "Koniec", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show($"Gotowe w {ms} ms\nWyników: {results.Count}", "Koniec", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             btnStart.Enabled = true;
             comboImpl.Enabled = true;
